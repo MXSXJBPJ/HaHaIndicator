@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.baipeijie.indicatorkongjiang.MainActivity">
+
+   <android.support.v4.view.ViewPager
+       android:id="@+id/viewPager"
+       android:layout_width="match_parent"
+       android:layout_height="200dp">
+       </android.support.v4.view.ViewPager>
+
+    <com.example.baipeijie.indicatorkongjiang.Indicator
+        android:id="@+id/indicator"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/viewPager"
+       android:layout_centerHorizontal="true"
+        app:Indicator_number="10"
+
+        />
+
+</android.support.constraint.ConstraintLayout>
